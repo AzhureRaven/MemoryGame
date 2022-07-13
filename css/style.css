@@ -1,0 +1,138 @@
+*{
+    border-radius: 5px;
+}
+
+html,body{
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+#mode{
+    padding: 10px;
+    width: 48vw;
+    margin: 5px;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    width: 15vw;
+    margin: 5px;
+    transition: 0.15s;
+    border : none;
+}
+button:hover{
+    opacity: 0.90;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#start{
+    background-color: #0275d8;
+    color: white;
+}
+
+#cheat{
+    background-color: #5cb85c;
+    color: white;
+}
+
+#leaderboard{
+    background-color: #FFEA00;
+    color: #080808;
+}
+
+#board{
+    position: relative;
+    background-color: #252525;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.tileHidden{
+    width: 140px;
+    height: 140px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.tileHidden:hover{
+    background-color: white;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.tileHidden p{
+    display: none;
+    font-weight: 600;
+}
+
+.tileAppear{
+    width: 140px;
+    height: 140px;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin: 5px;
+    /* box-sizing: border-box; */
+}
+
+.tileAppear p{
+    display: block;
+    font-weight: 600;
+}
+
+.tileWrong{
+    width: 140px;
+    height: 140px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin: 5px;
+    /* box-sizing: border-box; */
+}
+
+.tileWrong p{
+    display: block;
+    font-weight: 600;
+}
+
+.leader{
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    opacity: 0;
+    transition: 1s;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
