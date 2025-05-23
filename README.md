@@ -1,3 +1,3 @@
 # MemoryGame
-Ini merupakan tugas praktikum kuliah saya tahun 2021 yang saya ambil lalu menambahkan fitur autosave score dalam mysql dengan ajax jquery dan penggunaan gambar karena sebelumnya hanya string nomer saja.
-Delete score dapat dilakukan dengan double click button Leaderboard.
+This is my 2021 college practical assignment that I took and then added an autosave score feature in mysql with ajax jquery and the use of images because previously it was only a number string.
+Deleting scores can be done by double-clicking the Leaderboard button.
